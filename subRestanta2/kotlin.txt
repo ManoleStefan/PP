@@ -1,0 +1,48 @@
+interface Person
+{
+    fun getName():String
+    fun getAge():Int
+}
+
+class Utilizator(val nume:String, val ani:Int):Person
+{
+    override fun getAge(): Int {
+        return ani
+        }
+
+    override fun getName(): String {
+        return nume
+    }
+}
+
+class Agenda(val persoane:MutableList<Person>)
+{
+    fun SearchThroug(name:String): String?
+    {
+        persoane.forEach { if(it.getName()==name) { return name } }
+        return null
+    }
+}
+
+fun main(args:Array<String>) {
+
+
+    val alex=Utilizator("Alex",20)
+    val vlad=Utilizator("vlad",21)
+    val tudor=Utilizator("tudor",22)
+    val alin=Utilizator("Alin",23)
+    var persons = mutableListOf<Person>(alex,vlad,tudor,alin)
+    val agenda = Agenda(persons)
+    println(agenda.SearchThroug("Alex"))
+    println(agenda.SearchThroug("Ionut"))
+
+
+
+
+
+
+
+
+
+
+}
