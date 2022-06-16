@@ -1,0 +1,14 @@
+Change made by Raducu
+Date: 2020-06-24T21:37:54.739
+The price has changed for: Tomatoes
+Old price: 8.0lei/kg
+New price: 7.840000003576279lei/kg
+Discount: 2.0 %
+
+Change made by Raducu
+Date: 2020-06-24T21:37:56.534
+The price has changed for: Tomatoes
+Old price: 7.840000003576279lei/kg
+New price: 7.5264000104427335lei/kg
+Discount: 4.0 %
+

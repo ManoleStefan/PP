@@ -1,0 +1,1 @@
+2020-06-17T16:17:58.422: Rata de crestere a pretului: 0.1; Pretul curent: 2310.0

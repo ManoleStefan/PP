@@ -1,0 +1,1 @@
+{ 42 42 as a string in colection [element in element of colection, 32] }
